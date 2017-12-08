@@ -1,0 +1,71 @@
+
+<style>
+    body{
+        background: #00b8ff;
+    }
+    input:focus,textarea:focus{
+        background: rgb(214, 255, 163);
+    }
+    table{
+        background: #b2ff68;
+    }
+</style>
+<div class="col-lg-4"  style="background: #36cfff; border-radius: 15px; padding-bottom: 1em;">
+    <form>
+        <a class="btn btn-primary btn-xs" style="float: right;top:1px;">Nuevo</a >
+        <h4>Articulos <span id="id">0</span></h4>
+        <div class="form-group">
+            <label for="cod">Codigo</label>
+            <input type="text" class="form-control col-lg-6" id="cod" placeholder="Codigo">
+        </div>
+        <div class="form-group">
+            <label for="Art">Art:</label>
+            <input type="text" class="form-control" id="Art" placeholder="Articulo">
+        </div>
+        <div class="form-group">
+            <label for="Mac"> <a class="btn btn-success">Marca:</a> </label>
+            <select name="Mac" id="Mac" style="font-size: 1.3em;">
+                <option value="Apple"> Apple </option>
+                <option value="Samgsung"> Samgsung </option>
+                <option value="LG"> LG </option>
+                <option value="Sony"> Sony </option>
+
+             </select>
+
+            <label for="Rubro"> <a class="btn btn-danger">Rubro:</a> </label>
+            <select name="Rubro" id="Rubro" style="font-size: 1.3em;">
+                <option value="Apple"> Celulares </option>
+                <option value="Samgsung"> Accesorios </option>
+                <option value="LG"> Informatica </option>
+                <option value="Sony"> Fundas </option>
+
+            </select>
+
+        </div>
+
+        <div class="form-group" style="display: inline-block;">
+            <label for="Precio">Precio:</label>
+            <input type="text" class="form-control" id="Precio" placeholder="0.00" style="text-align: right;">
+        </div><br>
+        <div class="form-group">
+            <label for="Detalle">Detalle:</label> <br>
+            <textarea id="Detalle" ></textarea>
+
+        </div>
+        <a class="btn btn-success" id="abmMarcas">Grabar</a>
+    </form>
+</div> <!-- Fin alta -->
+
+
+<div class="col-lg-8" >
+<h3>hola</h3>
+</div>
+
+
+<script src="../js/helpers.js"></script>
+<script src="../js/modal.js"></script>
+<script>
+
+        EDMdal('abmMarcas','','','' );
+
+</script>

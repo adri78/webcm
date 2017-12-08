@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<a href="aaa" id="idLink" >AAAA</a>
+
+ <script>
+        let EdParams = {
+            idObj: 'idLink',
+            IdVentana: "Ventana",
+            Variable: "Variable",
+            EdPre: "Saludo",
+            EdEnd: "Despedida"
+
+        };
+
+        function modal1(Ed2) {
+                 alert("EdPre " + Ed2.EdEnd);
+         }
+        function modal(EdParams) {
+           var Ed5=EdParams;
+            let a= document.getElementById('idLink');
+
+            a.addEventListener("click",function (e) {
+                e.preventDefault();
+                modal1(Ed5);
+               console.log(Ed5.Variable);
+
+            })
+
+        }
+
+        modal(EdParams);
+
+
+
+
+    </script>
+
+</body>
+</html>

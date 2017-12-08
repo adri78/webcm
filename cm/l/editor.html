@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>3rd Party Integration/At.JS</title>
+
+
+
+
+
+</head>
+
+<body>
+    <html>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/codemirror.min.css">
+    <link href="css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/froala_style.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/jquery.atwho.min.css">
+
+ <!------------------------------------------------------------------------------------------------------- -->
+             <div class="col-lg-3">
+                <img src="../WebMaq/NoImagen.png" alt="Articulo" id="ima" style="width: 100%;">
+                <input type="file" id="Cima">
+            </div>
+
+            <div class="col-lg-9"  style="background: #b2ff68;">
+                <h3><label for="Articulo">Articulo</label>
+                <input type="text" name="Articulo" id="Articulo" style="width:100%;"></h3>
+                <div class="col-lg-4">
+                    <h3><label for="PRECIO" style="margin: 0px;">Precio:<input type="text" name="PRECIO" id="PRECIO"  style="width:200px;text-align: right;" maxlength="14"></label></h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3><label for="MARCA">Marca:
+                            <select name="MARCA" id="MARCA">
+                                <option value="">Todas</option>
+                            </select>
+                    </label></h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3><label for="Categoria">Rubro:
+                            <select name="Categoria" id="Categoria" >
+                                <option value="">Todas</option>
+                            </select>
+                        </label></h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3><label for="Oferta">OFERTA: <input  type="checkbox" name="Oferta" id="Oferta"> </label></h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3><label for="Visible">Visible: <input  type="checkbox" name="Visible" id="Visible"> </label></h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3><label for="COD">Codigo:<input type="text" name="COD" id="COD"  style="width:200px;text-align: right;" maxlength="14"> </label></h3>
+                </div>
+
+               <!-- <textarea name="Descripcio" id="Descripcio" style="width: 100%" rows="10"></textarea> -->
+    </div>
+
+
+ <!------------------------------------------------------------------------------------------------------ -->
+
+
+
+    <div id="froala-editor">
+        <p>Froala WYSIWYG Editor can easily be integrated with the amazing <a href="https://ichord.github.io/At.js/" target="_blank" rel="nofollow">At.js library</a>. Type an @ to display the autocomplete list.
+        </p>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.atwho.min.js"></script>
+    <script type="text/javascript" src="js/codemirror.min.js"></script>
+    <script type="text/javascript" src="js/xml/xml.min.js"></script>
+    <script type="text/javascript" src="js/froala_editor.pkgd.min.js"></script>
+
+    </html>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
