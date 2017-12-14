@@ -10,10 +10,19 @@
     <bookmark url="file://$PROJECT_DIR$/index.php" description="&lt;/div&gt;" line="230" />
     <bookmark url="file://$PROJECT_DIR$/index.php" description="&lt;div id=&quot;single-project&quot;&gt;" line="225" />
     <bookmark url="file://$PROJECT_DIR$/index.php" description="$(&quot;&quot;).load(&quot;cgi/tweb.php?A=&quot;+id, function (res) {" line="419" />
-    <bookmark url="file://$PROJECT_DIR$/Listado/index.php" description="document.getElementById('')" line="298" />
+    <bookmark url="file://$PROJECT_DIR$/Listado/index.php" description="document.getElementById('')" line="308" />
+    <bookmark url="file://$PROJECT_DIR$/Listado/index.php" description="function FichaArt() {" line="303" />
+    <bookmark url="file://$PROJECT_DIR$/Listado/index.php" description="for (let i = 0; i &lt; x.length; ++i) {" line="305" />
+    <bookmark url="file://$PROJECT_DIR$/Listado/index.php" description="var x= document.querySelectorAll('.X');" line="304" />
+    <bookmark url="file://$PROJECT_DIR$/Listado/index.php" description="x[i].addEventListener(&quot;click&quot;,function () {" line="306" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0db8a3d9-6403-4226-ad5f-ccb624456e16" name="Default" comment="" />
+    <list default="true" id="0db8a3d9-6403-4226-ad5f-ccb624456e16" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Listado/hom.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Listado/index.php" afterPath="$PROJECT_DIR$/Listado/index.php" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +35,7 @@
       <file leaf-file-name="CWeb.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cm/pages/cgi/CWeb.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="0">
               <caret line="60" column="92" lean-forward="false" selection-start-line="60" selection-start-column="88" selection-end-line="60" selection-end-column="95" />
               <folding>
                 <marker date="1510712946317" expanded="true" signature="1281:1318" ph="DELETE FROM " />
@@ -48,86 +57,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LDComplementa.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cm/pages/cgi/LDComplementa.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="128" column="22" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="27" />
-              <folding>
-                <marker date="1510534704916" expanded="true" signature="2038:2179" ph="SELECT `id_R... t_repuestos" />
-                <marker date="1510534704916" expanded="true" signature="2688:3075" ph="SELECT `id_R... t_repuestos" />
-                <marker date="1510534704916" expanded="true" signature="2703:2759" ph="SELECT `Equi... t_equi" />
-                <marker date="1510534704916" expanded="true" signature="2795:2860" ph="SELECT `Prov... t_proveedor" />
-                <marker date="1510534704916" expanded="true" signature="2874:2925" ph="SELECT `Tipo... t_tipo" />
-                <marker date="1510534704916" expanded="true" signature="2982:3033" ph="SELECT `colo... t_color" />
-                <marker date="1510534704916" expanded="true" signature="3824:4142" ph="SELECT `id_R... t_repuestos" />
-                <marker date="1510534704916" expanded="true" signature="3862:3927" ph="SELECT `Prov... t_proveedor" />
-                <marker date="1510534704916" expanded="true" signature="3941:3992" ph="SELECT `Tipo... t_tipo" />
-                <marker date="1510534704916" expanded="true" signature="4049:4100" ph="SELECT `colo... t_color" />
-                <marker date="1510534704916" expanded="true" signature="5115:5200" ph="SELECT `id_R... t_repuestos" />
-                <marker date="1510534704916" expanded="true" signature="5873:5996" ph="UPDATE `t_repuestos`... " />
-                <marker date="1510534704916" expanded="true" signature="6278:6425" ph="INSERT INTO `t_repuestos`... " />
-                <marker date="1510534704916" expanded="true" signature="6746:6912" ph="SELECT `id_R... " />
-                <marker date="1510534704916" expanded="true" signature="6846:6898" ph="SELECT `colo... t_color" />
-                <marker date="1510534704916" expanded="true" signature="7554:7696" ph="SELECT `id_R... t_repuestos" />
-                <marker date="1510534704916" expanded="true" signature="8166:8216" ph="DELETE FROM `t_repuestos`... " />
-                <marker date="1510534704916" expanded="true" signature="8473:8547" ph="SELECT `idPr... t_proveedor" />
-                <marker date="1510534704916" expanded="true" signature="8855:8912" ph="SELECT `idMa... t_marca" />
-                <marker date="1510534704916" expanded="true" signature="9214:9271" ph="SELECT `idTi... t_tipo" />
-                <marker date="1510534704916" expanded="true" signature="9569:9646" ph="INSERT INTO `t_proveedor`... " />
-                <marker date="1510534704916" expanded="true" signature="9841:9913" ph="UPDATE `t_proveedor`... " />
-                <marker date="1510534704916" expanded="true" signature="10067:10119" ph="DELETE FROM `t_proveedor`... " />
-                <marker date="1510534704916" expanded="true" signature="10372:10422" ph="INSERT INTO `t_marca`... " />
-                <marker date="1510534704916" expanded="true" signature="10568:10632" ph="UPDATE `t_marca`... " />
-                <marker date="1510534704916" expanded="true" signature="10778:10825" ph="DELETE FROM `t_marca`... " />
-                <marker date="1510534704916" expanded="true" signature="11076:11123" ph="INSERT INTO `t_tipo`... " />
-                <marker date="1510534704916" expanded="true" signature="11270:11331" ph="UPDATE `t_tipo`... " />
-                <marker date="1510534704916" expanded="true" signature="11478:11523" ph="DELETE FROM `t_tipo`... " />
-                <marker date="1510534704916" expanded="true" signature="11782:11831" ph="INSERT INTO `t_color`... " />
-                <marker date="1510534704916" expanded="true" signature="11978:12038" ph="UPDATE `t_color`... " />
-                <marker date="1510534704916" expanded="true" signature="12185:12229" ph="DELETE FROM `t_color`... " />
-                <marker date="1510534704916" expanded="true" signature="12387:12445" ph="SELECT `idco... t_color" />
-                <marker date="1510534704916" expanded="true" signature="12858:12960" ph="SELECT `id_e... t_equi" />
-                <marker date="1510534704916" expanded="true" signature="13267:13340" ph="SELECT `id_e... t_equi" />
-                <marker date="1510534704916" expanded="true" signature="13637:13712" ph="INSERT INTO `t_equi`... " />
-                <marker date="1510534704916" expanded="true" signature="13883:13973" ph="UPDATE `t_equi`... " />
-                <marker date="1510534704916" expanded="true" signature="14144:14191" ph="DELETE FROM `t_equi`... " />
-                <marker date="1510534704916" expanded="true" signature="14466:14540" ph="SELECT `idPr... t_proveedor" />
-                <marker date="1510534704916" expanded="true" signature="14786:14843" ph="SELECT `idMa... t_marca" />
-                <marker date="1510534704916" expanded="true" signature="15083:15140" ph="SELECT `idTi... t_tipo" />
-                <marker date="1510534704916" expanded="true" signature="15380:15438" ph="SELECT `idco... t_color" />
-                <marker date="1510534704916" expanded="true" signature="15675:15777" ph="SELECT `id_e... t_equi" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tweb.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cm/pages/cgi/tweb.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-              <folding>
-                <marker date="1510534328187" expanded="true" signature="478:576" ph="SELECT `id_m... t_maque" />
-                <marker date="1510534328187" expanded="true" signature="996:1053" ph="SELECT `idru... trubro" />
-                <marker date="1510534328187" expanded="true" signature="1403:1471" ph="SELECT `idMa... t_marca" />
-                <marker date="1510534328187" expanded="true" signature="1906:2154" ph="SELECT `idAr... t_artweb" />
-                <marker date="1510534328187" expanded="true" signature="1985:2036" ph="SELECT `rubr... trubro" />
-                <marker date="1510534328187" expanded="true" signature="2049:2104" ph="SELECT `Marc... t_marca" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Listado/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+            <state relative-caret-position="303">
+              <caret line="293" column="72" lean-forward="true" selection-start-line="293" selection-start-column="72" selection-end-line="293" selection-end-column="72" />
               <folding>
-                <marker date="1511131893367" expanded="true" signature="7869:8140" ph="SELECT `idAr... t_artweb" />
-                <marker date="1511131893367" expanded="true" signature="7952:8003" ph="SELECT `rubr... trubro" />
-                <marker date="1511131893367" expanded="true" signature="8017:8073" ph="SELECT `Marc... t_marca" />
+                <marker date="1513241048241" expanded="true" signature="6908:7179" ph="SELECT `idAr... t_artweb" />
+                <marker date="1513241048241" expanded="true" signature="6991:7042" ph="SELECT `rubr... trubro" />
+                <marker date="1513241048241" expanded="true" signature="7056:7112" ph="SELECT `Marc... t_marca" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hom.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Listado/hom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <marker date="1513244321786" expanded="true" signature="213:460" ph="SELECT `idAr... t_artweb" />
+                <marker date="1513244321786" expanded="true" signature="296:347" ph="SELECT `rubr... trubro" />
+                <marker date="1513244321786" expanded="true" signature="361:417" ph="SELECT `Marc... t_marca" />
               </folding>
             </state>
           </provider>
@@ -136,96 +88,8 @@
       <file leaf-file-name="validar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cm/l/validar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
+            <state relative-caret-position="549">
               <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bd3.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cm/pages/cgi/bd3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tabla.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cm/pages/cgi/tabla.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="12" />
-              <folding>
-                <marker date="1510534907888" expanded="true" signature="485:597" ph="SELECT `idar... t_art" />
-                <marker date="1510534907888" expanded="true" signature="3482:3594" ph="SELECT `idar... t_art" />
-                <marker date="1510534907888" expanded="true" signature="5628:5776" ph="SELECT `idP`... t_pedir" />
-                <marker date="1510534907888" expanded="true" signature="7520:7595" ph="SELECT `idve... ver" />
-                <marker date="1510534907888" expanded="true" signature="8291:8456" ph="SELECT `IdD`... t_detalle" />
-                <marker date="1510534907888" expanded="true" signature="10951:11015" ph="SELECT `Clie... t_cliente" />
-                <marker date="1510534907888" expanded="true" signature="11239:11348" ph="SELECT `idnc... t_nc" />
-                <marker date="1510534907888" expanded="true" signature="12054:12264" ph="SELECT `IdV`... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="12294:12445" ph="SELECT `IdV`... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="13411:13551" ph="SELECT `IdV`... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="13717:13853" ph="SELECT `IdD`... t_detalle" />
-                <marker date="1510534907888" expanded="true" signature="14689:14719" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="15018:15218" ph="SELECT `IdV`... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="15247:15391" ph="SELECT `IdV`... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="16147:16269" ph="SELECT `Codi... t_art" />
-                <marker date="1510534907888" expanded="true" signature="17863:17888" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="18072:18237" ph="SELECT COUNT... t_art" />
-                <marker date="1510534907888" expanded="true" signature="19529:19655" ph="SELECT `Codi... t_art" />
-                <marker date="1510534907888" expanded="true" signature="20362:20387" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="20565:20709" ph="SELECT SUM(I... t_art" />
-                <marker date="1510534907888" expanded="true" signature="21765:21891" ph="SELECT `Codi... t_art" />
-                <marker date="1510534907888" expanded="true" signature="22598:22623" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="22801:22945" ph="SELECT SUM(I... t_art" />
-                <marker date="1510534907888" expanded="true" signature="23996:24122" ph="SELECT `Codi... t_art" />
-                <marker date="1510534907888" expanded="true" signature="24837:24862" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="25040:25184" ph="SELECT SUM(I... t_art" />
-                <marker date="1510534907888" expanded="true" signature="26462:26555" ph="SELECT `S1`,... t_art" />
-                <marker date="1510534907888" expanded="true" signature="27686:27711" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="27889:28005" ph="SELECT COUNT... t_art" />
-                <marker date="1510534907888" expanded="true" signature="28909:28992" ph="SELECT `Codi... t_art" />
-                <marker date="1510534907888" expanded="true" signature="30084:30177" ph="SELECT `S2`,... t_art" />
-                <marker date="1510534907888" expanded="true" signature="31307:31332" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="31510:31626" ph="SELECT COUNT... t_art" />
-                <marker date="1510534907888" expanded="true" signature="32532:32615" ph="SELECT `Codi... t_art" />
-                <marker date="1510534907888" expanded="true" signature="33710:33802" ph="SELECT `S3`,... t_art" />
-                <marker date="1510534907888" expanded="true" signature="34932:34957" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="35135:35251" ph="SELECT COUNT... t_art" />
-                <marker date="1510534907888" expanded="true" signature="36150:36233" ph="SELECT `Codi... t_art" />
-                <marker date="1510534907888" expanded="true" signature="37293:37438" ph="SELECT `Clie... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="38491:38606" ph="SELECT `Clie... t_cliente" />
-                <marker date="1510534907888" expanded="true" signature="39938:40140" ph="SELECT `Fech... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="41474:41496" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="41585:41597" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="42552:42716" ph="SELECT count... t_detalle" />
-                <marker date="1510534907888" expanded="true" signature="42931:42953" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="45047:45241" ph="SELECT `Fech... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="46335:46357" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="46446:46458" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="47466:47660" ph="SELECT `Fech... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="48754:48776" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="48865:48877" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="49885:50079" ph="SELECT `Fech... t_venta" />
-                <marker date="1510534907888" expanded="true" signature="51174:51196" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="51285:51297" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="52292:52655" ph="SELECT `Codi... " />
-                <marker date="1510534907888" expanded="true" signature="53781:53803" ph="..." />
-                <marker date="1510534907888" expanded="true" signature="53892:53904" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Marquesina.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cm/pages/Marquesina.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1989">
-              <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -234,27 +98,17 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4760">
-              <caret line="280" column="116" lean-forward="false" selection-start-line="280" selection-start-column="116" selection-end-line="280" selection-end-column="116" />
+            <state relative-caret-position="196">
+              <caret line="435" column="31" lean-forward="false" selection-start-line="435" selection-start-column="28" selection-end-line="435" selection-end-column="58" />
               <folding>
-                <marker date="1511106072859" expanded="true" signature="4885:4905" ph="..." />
-                <marker date="1511106072859" expanded="true" signature="4964:5044" ph="SELECT `id_m... t_maque" />
-                <marker date="1511106072859" expanded="true" signature="5460:5473" ph="..." />
-                <marker date="1511106072859" expanded="true" signature="9438:9491" ph="SELECT `idru... trubro" />
-                <marker date="1511106072859" expanded="true" signature="10090:10297" ph="SELECT `idAr... t_artweb" />
-                <marker date="1511106072859" expanded="true" signature="10173:10224" ph="SELECT `rubr... trubro" />
-                <marker date="1511106072859" expanded="true" signature="12038:12103" ph="SELECT `idMa... t_marca" />
+                <marker date="1513232951083" expanded="true" signature="4885:4905" ph="..." />
+                <marker date="1513232951083" expanded="true" signature="4964:5044" ph="SELECT `id_m... t_maque" />
+                <marker date="1513232951083" expanded="true" signature="5460:5473" ph="..." />
+                <marker date="1513232951083" expanded="true" signature="9438:9491" ph="SELECT `idru... trubro" />
+                <marker date="1513232951083" expanded="true" signature="10090:10297" ph="SELECT `idAr... t_artweb" />
+                <marker date="1513232951083" expanded="true" signature="10173:10224" ph="SELECT `rubr... trubro" />
+                <marker date="1513232951083" expanded="true" signature="12038:12103" ph="SELECT `idMa... t_marca" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="froala_editor.pkgd.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cm/pages/js/froala_editor.pkgd.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110806">
-              <caret line="6464" column="743" lean-forward="false" selection-start-line="6464" selection-start-column="741" selection-end-line="6464" selection-end-column="794" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -270,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.da-s</find>
       <find>client-nav</find>
       <find>ofer</find>
       <find>style</find>
@@ -300,7 +153,11 @@
       <find>lista</find>
       <find>froala</find>
       <find>http</find>
+      <find>FichaArt</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -342,9 +199,10 @@
         <option value="$PROJECT_DIR$/cm/pages/ABMRubro.php" />
         <option value="$PROJECT_DIR$/Listado/js/index.js" />
         <option value="$PROJECT_DIR$/Listado/compartir.html" />
+        <option value="$PROJECT_DIR$/cm/pages/cgi/bd3.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Listado/index.php" />
-        <option value="$PROJECT_DIR$/cm/pages/cgi/bd3.php" />
+        <option value="$PROJECT_DIR$/Listado/hom.php" />
       </list>
     </option>
   </component>
@@ -358,12 +216,12 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-40" />
-    <option name="y" value="196" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-51" />
     <option name="width" value="1296" />
-    <option name="height" value="676" />
+    <option name="height" value="991" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -379,7 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,12 +248,6 @@
               <item name="WEBcm" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEBcm" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="cm" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="WEBcm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WEBcm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="l" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="WEBcm" type="b2602c69:ProjectViewProjectNode" />
@@ -414,22 +265,25 @@
             <path>
               <item name="WEBcm" type="b2602c69:ProjectViewProjectNode" />
               <item name="WEBcm" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="WebMaq" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Listado" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\WEBcm\Listado" />
       <recent name="C:\wamp64\www\WEBcm" />
     </key>
   </component>
@@ -471,27 +325,28 @@
       <workItem from="1511133814201" duration="468000" />
       <workItem from="1511401187304" duration="600000" />
       <workItem from="1512759719131" duration="1971000" />
+      <workItem from="1513016924936" duration="599000" />
+      <workItem from="1513089736898" duration="13489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104792000" />
+    <option name="totallyTimeSpent" value="118880000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19554849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -533,27 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cm/pages/reciboNC2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/Grabar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/msj.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cm/pages/cgi/Pedir.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -680,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/Art.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cm/pages/mensajes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
@@ -719,13 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/ArtWeb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -765,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/ABMArticulo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="202" column="24" lean-forward="true" selection-start-line="202" selection-start-column="24" selection-end-line="202" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VTel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -797,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,20 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="48" lean-forward="false" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding>
-            <marker date="1510708562477" expanded="true" signature="239:510" ph="SELECT `idAr... t_artweb" />
-            <marker date="1510708562477" expanded="true" signature="322:373" ph="SELECT `rubr... trubro" />
-            <marker date="1510708562477" expanded="true" signature="387:443" ph="SELECT `Marc... t_marca" />
-            <marker date="1510708562477" expanded="true" signature="653:1593" ph="..." />
-            <marker date="1510708562477" expanded="true" signature="676:1586" ph="..." />
-            <marker date="1510708562477" expanded="true" signature="819:1580" ph="..." />
-            <marker date="1510708562477" expanded="true" signature="867:896" ph="..." />
-            <marker date="1510708562477" expanded="true" signature="1131:1311" ph="..." />
-            <marker date="1510708562477" expanded="true" signature="1339:1574" ph="..." />
-            <marker date="1510708562477" expanded="true" signature="1384:1470" ph="..." />
-            <marker date="1510708562477" expanded="true" signature="1400:1464" ph="..." />
-            <marker date="1510708562477" expanded="true" signature="1502:1568" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -838,39 +635,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/cm/pages/Marquesina.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4760">
-          <caret line="280" column="116" lean-forward="false" selection-start-line="280" selection-start-column="116" selection-end-line="280" selection-end-column="116" />
-          <folding>
-            <marker date="1511106072859" expanded="true" signature="4885:4905" ph="..." />
-            <marker date="1511106072859" expanded="true" signature="4964:5044" ph="SELECT `id_m... t_maque" />
-            <marker date="1511106072859" expanded="true" signature="5460:5473" ph="..." />
-            <marker date="1511106072859" expanded="true" signature="9438:9491" ph="SELECT `idru... trubro" />
-            <marker date="1511106072859" expanded="true" signature="10090:10297" ph="SELECT `idAr... t_artweb" />
-            <marker date="1511106072859" expanded="true" signature="10173:10224" ph="SELECT `rubr... trubro" />
-            <marker date="1511106072859" expanded="true" signature="12038:12103" ph="SELECT `idMa... t_marca" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Listado/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
-          <folding>
-            <marker date="1511131893367" expanded="true" signature="7869:8140" ph="SELECT `idAr... t_artweb" />
-            <marker date="1511131893367" expanded="true" signature="7952:8003" ph="SELECT `rubr... trubro" />
-            <marker date="1511131893367" expanded="true" signature="8017:8073" ph="SELECT `Marc... t_marca" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cm/l/validar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="58" />
+        <state relative-caret-position="561">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/CWeb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="60" column="92" lean-forward="false" selection-start-line="60" selection-start-column="88" selection-end-line="60" selection-end-column="95" />
+          <folding>
+            <marker date="1510712946317" expanded="true" signature="1281:1318" ph="DELETE FROM " />
+            <marker date="1510712946317" expanded="true" signature="1495:1576" ph="INSERT INTO `t_maque`... " />
+            <marker date="1510712946317" expanded="true" signature="1716:1887" ph="UPDATE `t_ma... " />
+            <marker date="1510712946317" expanded="true" signature="2071:2180" ph="SELECT `id_m... t_maque" />
+            <marker date="1510712946317" expanded="true" signature="2735:2769" ph="DELETE FROM " />
+            <marker date="1510712946317" expanded="true" signature="2943:2998" ph="INSERT INTO `trubro`... " />
+            <marker date="1510712946317" expanded="true" signature="3034:3093" ph="UPDATE `trub... " />
+            <marker date="1510712946317" expanded="true" signature="3248:3311" ph="SELECT `idru... trubro" />
+            <marker date="1510712946317" expanded="true" signature="3720:3758" ph="DELETE FROM " />
+            <marker date="1510712946317" expanded="true" signature="3933:4014" ph="INSERT INTO `t_marca`... " />
+            <marker date="1510712946317" expanded="true" signature="4050:4136" ph="UPDATE `t_ma... " />
+            <marker date="1510712946317" expanded="true" signature="4292:4370" ph="SELECT `idMa... t_marca" />
+            <marker date="1510712946317" expanded="true" signature="4735:4792" ph="SELECT `idMa... t_marca" />
+            <marker date="1510712946317" expanded="true" signature="5081:5134" ph="SELECT `idru... trubro" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/LDComplementa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="128" column="22" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="27" />
+          <folding>
+            <marker date="1510534704916" expanded="true" signature="2038:2179" ph="SELECT `id_R... t_repuestos" />
+            <marker date="1510534704916" expanded="true" signature="2688:3075" ph="SELECT `id_R... t_repuestos" />
+            <marker date="1510534704916" expanded="true" signature="2703:2759" ph="SELECT `Equi... t_equi" />
+            <marker date="1510534704916" expanded="true" signature="2795:2860" ph="SELECT `Prov... t_proveedor" />
+            <marker date="1510534704916" expanded="true" signature="2874:2925" ph="SELECT `Tipo... t_tipo" />
+            <marker date="1510534704916" expanded="true" signature="2982:3033" ph="SELECT `colo... t_color" />
+            <marker date="1510534704916" expanded="true" signature="3824:4142" ph="SELECT `id_R... t_repuestos" />
+            <marker date="1510534704916" expanded="true" signature="3862:3927" ph="SELECT `Prov... t_proveedor" />
+            <marker date="1510534704916" expanded="true" signature="3941:3992" ph="SELECT `Tipo... t_tipo" />
+            <marker date="1510534704916" expanded="true" signature="4049:4100" ph="SELECT `colo... t_color" />
+            <marker date="1510534704916" expanded="true" signature="5115:5200" ph="SELECT `id_R... t_repuestos" />
+            <marker date="1510534704916" expanded="true" signature="5873:5996" ph="UPDATE `t_repuestos`... " />
+            <marker date="1510534704916" expanded="true" signature="6278:6425" ph="INSERT INTO `t_repuestos`... " />
+            <marker date="1510534704916" expanded="true" signature="6746:6912" ph="SELECT `id_R... " />
+            <marker date="1510534704916" expanded="true" signature="6846:6898" ph="SELECT `colo... t_color" />
+            <marker date="1510534704916" expanded="true" signature="7554:7696" ph="SELECT `id_R... t_repuestos" />
+            <marker date="1510534704916" expanded="true" signature="8166:8216" ph="DELETE FROM `t_repuestos`... " />
+            <marker date="1510534704916" expanded="true" signature="8473:8547" ph="SELECT `idPr... t_proveedor" />
+            <marker date="1510534704916" expanded="true" signature="8855:8912" ph="SELECT `idMa... t_marca" />
+            <marker date="1510534704916" expanded="true" signature="9214:9271" ph="SELECT `idTi... t_tipo" />
+            <marker date="1510534704916" expanded="true" signature="9569:9646" ph="INSERT INTO `t_proveedor`... " />
+            <marker date="1510534704916" expanded="true" signature="9841:9913" ph="UPDATE `t_proveedor`... " />
+            <marker date="1510534704916" expanded="true" signature="10067:10119" ph="DELETE FROM `t_proveedor`... " />
+            <marker date="1510534704916" expanded="true" signature="10372:10422" ph="INSERT INTO `t_marca`... " />
+            <marker date="1510534704916" expanded="true" signature="10568:10632" ph="UPDATE `t_marca`... " />
+            <marker date="1510534704916" expanded="true" signature="10778:10825" ph="DELETE FROM `t_marca`... " />
+            <marker date="1510534704916" expanded="true" signature="11076:11123" ph="INSERT INTO `t_tipo`... " />
+            <marker date="1510534704916" expanded="true" signature="11270:11331" ph="UPDATE `t_tipo`... " />
+            <marker date="1510534704916" expanded="true" signature="11478:11523" ph="DELETE FROM `t_tipo`... " />
+            <marker date="1510534704916" expanded="true" signature="11782:11831" ph="INSERT INTO `t_color`... " />
+            <marker date="1510534704916" expanded="true" signature="11978:12038" ph="UPDATE `t_color`... " />
+            <marker date="1510534704916" expanded="true" signature="12185:12229" ph="DELETE FROM `t_color`... " />
+            <marker date="1510534704916" expanded="true" signature="12387:12445" ph="SELECT `idco... t_color" />
+            <marker date="1510534704916" expanded="true" signature="12858:12960" ph="SELECT `id_e... t_equi" />
+            <marker date="1510534704916" expanded="true" signature="13267:13340" ph="SELECT `id_e... t_equi" />
+            <marker date="1510534704916" expanded="true" signature="13637:13712" ph="INSERT INTO `t_equi`... " />
+            <marker date="1510534704916" expanded="true" signature="13883:13973" ph="UPDATE `t_equi`... " />
+            <marker date="1510534704916" expanded="true" signature="14144:14191" ph="DELETE FROM `t_equi`... " />
+            <marker date="1510534704916" expanded="true" signature="14466:14540" ph="SELECT `idPr... t_proveedor" />
+            <marker date="1510534704916" expanded="true" signature="14786:14843" ph="SELECT `idMa... t_marca" />
+            <marker date="1510534704916" expanded="true" signature="15083:15140" ph="SELECT `idTi... t_tipo" />
+            <marker date="1510534704916" expanded="true" signature="15380:15438" ph="SELECT `idco... t_color" />
+            <marker date="1510534704916" expanded="true" signature="15675:15777" ph="SELECT `id_e... t_equi" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/tweb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <marker date="1510534328187" expanded="true" signature="478:576" ph="SELECT `id_m... t_maque" />
+            <marker date="1510534328187" expanded="true" signature="996:1053" ph="SELECT `idru... trubro" />
+            <marker date="1510534328187" expanded="true" signature="1403:1471" ph="SELECT `idMa... t_marca" />
+            <marker date="1510534328187" expanded="true" signature="1906:2154" ph="SELECT `idAr... t_artweb" />
+            <marker date="1510534328187" expanded="true" signature="1985:2036" ph="SELECT `rubr... trubro" />
+            <marker date="1510534328187" expanded="true" signature="2049:2104" ph="SELECT `Marc... t_marca" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -940,109 +799,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/Marquesina.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.426/CharacterReferences2utf8.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1989">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/CWeb.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.706/connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="60" column="92" lean-forward="false" selection-start-line="60" selection-start-column="88" selection-end-line="60" selection-end-column="95" />
-          <folding>
-            <marker date="1510712946317" expanded="true" signature="1281:1318" ph="DELETE FROM " />
-            <marker date="1510712946317" expanded="true" signature="1495:1576" ph="INSERT INTO `t_maque`... " />
-            <marker date="1510712946317" expanded="true" signature="1716:1887" ph="UPDATE `t_ma... " />
-            <marker date="1510712946317" expanded="true" signature="2071:2180" ph="SELECT `id_m... t_maque" />
-            <marker date="1510712946317" expanded="true" signature="2735:2769" ph="DELETE FROM " />
-            <marker date="1510712946317" expanded="true" signature="2943:2998" ph="INSERT INTO `trubro`... " />
-            <marker date="1510712946317" expanded="true" signature="3034:3093" ph="UPDATE `trub... " />
-            <marker date="1510712946317" expanded="true" signature="3248:3311" ph="SELECT `idru... trubro" />
-            <marker date="1510712946317" expanded="true" signature="3720:3758" ph="DELETE FROM " />
-            <marker date="1510712946317" expanded="true" signature="3933:4014" ph="INSERT INTO `t_marca`... " />
-            <marker date="1510712946317" expanded="true" signature="4050:4136" ph="UPDATE `t_ma... " />
-            <marker date="1510712946317" expanded="true" signature="4292:4370" ph="SELECT `idMa... t_marca" />
-            <marker date="1510712946317" expanded="true" signature="4735:4792" ph="SELECT `idMa... t_marca" />
-            <marker date="1510712946317" expanded="true" signature="5081:5134" ph="SELECT `idru... trubro" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/LDComplementa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="128" column="22" lean-forward="false" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="27" />
-          <folding>
-            <marker date="1510534704916" expanded="true" signature="2038:2179" ph="SELECT `id_R... t_repuestos" />
-            <marker date="1510534704916" expanded="true" signature="2688:3075" ph="SELECT `id_R... t_repuestos" />
-            <marker date="1510534704916" expanded="true" signature="2703:2759" ph="SELECT `Equi... t_equi" />
-            <marker date="1510534704916" expanded="true" signature="2795:2860" ph="SELECT `Prov... t_proveedor" />
-            <marker date="1510534704916" expanded="true" signature="2874:2925" ph="SELECT `Tipo... t_tipo" />
-            <marker date="1510534704916" expanded="true" signature="2982:3033" ph="SELECT `colo... t_color" />
-            <marker date="1510534704916" expanded="true" signature="3824:4142" ph="SELECT `id_R... t_repuestos" />
-            <marker date="1510534704916" expanded="true" signature="3862:3927" ph="SELECT `Prov... t_proveedor" />
-            <marker date="1510534704916" expanded="true" signature="3941:3992" ph="SELECT `Tipo... t_tipo" />
-            <marker date="1510534704916" expanded="true" signature="4049:4100" ph="SELECT `colo... t_color" />
-            <marker date="1510534704916" expanded="true" signature="5115:5200" ph="SELECT `id_R... t_repuestos" />
-            <marker date="1510534704916" expanded="true" signature="5873:5996" ph="UPDATE `t_repuestos`... " />
-            <marker date="1510534704916" expanded="true" signature="6278:6425" ph="INSERT INTO `t_repuestos`... " />
-            <marker date="1510534704916" expanded="true" signature="6746:6912" ph="SELECT `id_R... " />
-            <marker date="1510534704916" expanded="true" signature="6846:6898" ph="SELECT `colo... t_color" />
-            <marker date="1510534704916" expanded="true" signature="7554:7696" ph="SELECT `id_R... t_repuestos" />
-            <marker date="1510534704916" expanded="true" signature="8166:8216" ph="DELETE FROM `t_repuestos`... " />
-            <marker date="1510534704916" expanded="true" signature="8473:8547" ph="SELECT `idPr... t_proveedor" />
-            <marker date="1510534704916" expanded="true" signature="8855:8912" ph="SELECT `idMa... t_marca" />
-            <marker date="1510534704916" expanded="true" signature="9214:9271" ph="SELECT `idTi... t_tipo" />
-            <marker date="1510534704916" expanded="true" signature="9569:9646" ph="INSERT INTO `t_proveedor`... " />
-            <marker date="1510534704916" expanded="true" signature="9841:9913" ph="UPDATE `t_proveedor`... " />
-            <marker date="1510534704916" expanded="true" signature="10067:10119" ph="DELETE FROM `t_proveedor`... " />
-            <marker date="1510534704916" expanded="true" signature="10372:10422" ph="INSERT INTO `t_marca`... " />
-            <marker date="1510534704916" expanded="true" signature="10568:10632" ph="UPDATE `t_marca`... " />
-            <marker date="1510534704916" expanded="true" signature="10778:10825" ph="DELETE FROM `t_marca`... " />
-            <marker date="1510534704916" expanded="true" signature="11076:11123" ph="INSERT INTO `t_tipo`... " />
-            <marker date="1510534704916" expanded="true" signature="11270:11331" ph="UPDATE `t_tipo`... " />
-            <marker date="1510534704916" expanded="true" signature="11478:11523" ph="DELETE FROM `t_tipo`... " />
-            <marker date="1510534704916" expanded="true" signature="11782:11831" ph="INSERT INTO `t_color`... " />
-            <marker date="1510534704916" expanded="true" signature="11978:12038" ph="UPDATE `t_color`... " />
-            <marker date="1510534704916" expanded="true" signature="12185:12229" ph="DELETE FROM `t_color`... " />
-            <marker date="1510534704916" expanded="true" signature="12387:12445" ph="SELECT `idco... t_color" />
-            <marker date="1510534704916" expanded="true" signature="12858:12960" ph="SELECT `id_e... t_equi" />
-            <marker date="1510534704916" expanded="true" signature="13267:13340" ph="SELECT `id_e... t_equi" />
-            <marker date="1510534704916" expanded="true" signature="13637:13712" ph="INSERT INTO `t_equi`... " />
-            <marker date="1510534704916" expanded="true" signature="13883:13973" ph="UPDATE `t_equi`... " />
-            <marker date="1510534704916" expanded="true" signature="14144:14191" ph="DELETE FROM `t_equi`... " />
-            <marker date="1510534704916" expanded="true" signature="14466:14540" ph="SELECT `idPr... t_proveedor" />
-            <marker date="1510534704916" expanded="true" signature="14786:14843" ph="SELECT `idMa... t_marca" />
-            <marker date="1510534704916" expanded="true" signature="15083:15140" ph="SELECT `idTi... t_tipo" />
-            <marker date="1510534704916" expanded="true" signature="15380:15438" ph="SELECT `idco... t_color" />
-            <marker date="1510534704916" expanded="true" signature="15675:15777" ph="SELECT `id_e... t_equi" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/tweb.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <marker date="1510534328187" expanded="true" signature="478:576" ph="SELECT `id_m... t_maque" />
-            <marker date="1510534328187" expanded="true" signature="996:1053" ph="SELECT `idru... trubro" />
-            <marker date="1510534328187" expanded="true" signature="1403:1471" ph="SELECT `idMa... t_marca" />
-            <marker date="1510534328187" expanded="true" signature="1906:2154" ph="SELECT `idAr... t_artweb" />
-            <marker date="1510534328187" expanded="true" signature="1985:2036" ph="SELECT `rubr... trubro" />
-            <marker date="1510534328187" expanded="true" signature="2049:2104" ph="SELECT `Marc... t_marca" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cm/pages/cgi/bd3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cm/l/validar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="50" column="9" lean-forward="false" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="435" column="31" lean-forward="false" selection-start-line="435" selection-start-column="28" selection-end-line="435" selection-end-column="58" />
+          <folding>
+            <marker date="1513232951083" expanded="true" signature="4885:4905" ph="..." />
+            <marker date="1513232951083" expanded="true" signature="4964:5044" ph="SELECT `id_m... t_maque" />
+            <marker date="1513232951083" expanded="true" signature="5460:5473" ph="..." />
+            <marker date="1513232951083" expanded="true" signature="9438:9491" ph="SELECT `idru... trubro" />
+            <marker date="1513232951083" expanded="true" signature="10090:10297" ph="SELECT `idAr... t_artweb" />
+            <marker date="1513232951083" expanded="true" signature="10173:10224" ph="SELECT `rubr... trubro" />
+            <marker date="1513232951083" expanded="true" signature="12038:12103" ph="SELECT `idMa... t_marca" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/Art.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <marker date="1510538940983" expanded="true" signature="1076:1203" ph="SELECT `idar... t_art" />
+            <marker date="1510538940983" expanded="true" signature="2172:2286" ph="INSERT INTO `t_art`... " />
+            <marker date="1510538940983" expanded="true" signature="2538:2678" ph="UPDATE `t_art`... " />
+            <marker date="1510538940983" expanded="true" signature="2884:3001" ph="UPDATE `t_art`... " />
+            <marker date="1510538940983" expanded="true" signature="3390:3532" ph="SELECT `idar... t_art" />
+            <marker date="1510538940983" expanded="true" signature="4145:4223" ph="SELECT `idve... ver" />
+            <marker date="1510538940983" expanded="true" signature="4642:4683" ph="DELETE FROM `ver`... " />
+            <marker date="1510538940983" expanded="true" signature="4931:5034" ph="INSERT INTO `ver`... " />
+            <marker date="1510538940983" expanded="true" signature="5076:5153" ph="UPDATE `ver`... " />
+            <marker date="1510538940983" expanded="true" signature="5351:5395" ph="UPDATE `ver`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cm/pages/cgi/ArtWeb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="77" lean-forward="false" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="81" />
+          <folding>
+            <marker date="1510534157695" expanded="true" signature="1007:1133" ph="INSERT INTO `t_artweb`... " />
+            <marker date="1510534157695" expanded="true" signature="1294:1521" ph="UPDATE `t_artweb`... " />
+            <marker date="1510534157695" expanded="true" signature="1664:1701" ph="DELETE FROM `t_artweb`... " />
+            <marker date="1510534157695" expanded="true" signature="1837:1980" ph="SELECT `Arti... t_artweb" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cm/pages/ABMArticulo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="177" column="16" lean-forward="false" selection-start-line="175" selection-start-column="7" selection-end-line="179" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Listado/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="293" column="72" lean-forward="true" selection-start-line="293" selection-start-column="72" selection-end-line="293" selection-end-column="72" />
+          <folding>
+            <marker date="1513241048241" expanded="true" signature="6908:7179" ph="SELECT `idAr... t_artweb" />
+            <marker date="1513241048241" expanded="true" signature="6991:7042" ph="SELECT `rubr... trubro" />
+            <marker date="1513241048241" expanded="true" signature="7056:7112" ph="SELECT `Marc... t_marca" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Listado/hom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1513244321786" expanded="true" signature="213:460" ph="SELECT `idAr... t_artweb" />
+            <marker date="1513244321786" expanded="true" signature="296:347" ph="SELECT `rubr... trubro" />
+            <marker date="1513244321786" expanded="true" signature="361:417" ph="SELECT `Marc... t_marca" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -474,16 +474,9 @@
 
                     }); //fin ajax
 
-
                 }
 
-
-
-
             </script>
-
-
-
 
             <!--Start of Tawk.to Script-->
             <script type="text/javascript">

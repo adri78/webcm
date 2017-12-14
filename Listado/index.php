@@ -192,42 +192,30 @@ font-family: 'Timmana', sans-serif;
             </style>
 
             <div class="col-md-5">
-                <img src="img.jpg" alt="">
+                <img src="img.jpg" alt="" id="artIMA">
             </div>
             <div class="col-md-7">
                 <div class="TC">
                     <br>
-                    <h1 id="DTitulo"> Articulo xxxx otro texto</h1>
+                    <h1 id="DTitulo"> Articulo xxxx </h1>
                     <table id="TFicha">
-                        <tr> <td> Marca:</td><td>  zzzz </td> </tr>
-                        <tr> <td> Categoria:</td><td> zzzz </td> </tr>
+                        <tr> <td> Marca:</td><td id="ArtMarca">  zzzz </td> </tr>
+                        <tr> <td> Categoria:</td><td id="ArtCategoria"> zzzz </td> </tr>
 
                     </table>
                         <br>
-                    <h2> Precio:$ 12300.00 </h2>
+                    <h2> Precio:$  <span id="ArtPrecio">00.00</span></h2>
                     <h4 onclick="ListaArt()"  class="btn btn-success btn-lg">Volver / Comprar</h4>
 
-                    <img src="redes.jpg" alt="" style="width: 95%; border: none;">
+                  <!--
+                   <img src="redes.jpg" alt="" style="width: 95%; border: none;">
+                   -->
 
                 </div>
             </div>
             <br>
             <div class="col-md-12" style="padding: 2em;">
-                <p>
-
-                    Imagine una compañía con la influencia de Google , Facebook o Amazon que además tiene
-                    garantizado por el Estado el monopolio del comercio con una zona geográfica.
-                    También puede cobrar impuestos, firmar acuerdos comerciales, encarcelar a delincuentes y declarar guerras.
-                    Estos eran algunos de los poderes y atribuciones de la Compañía Neerlandesa de las Indias Orientales,
-                    fundada en el siglo XV por unos empresarios con el apoyo del Gobierno de los Países Bajos para comerciar
-                    con Asia. Fue la primera corporación trasnacional que emitió bonos y acciones en el mercado para financiar
-                    su crecimiento, un notorio precedente que siglos después llegó hasta las multinacionales modernas.
-                    Los nuevos gigantes empresariales no cuentan con los excepcionales privilegios de la histórica
-                    compañía holandesa, pero su valor bursátil e ingresos llegan a superar el PIB de decenas de países.
-
-
-
-                </p>
+                <p id="ArtData"> </p>
             </div>
 
  <!-- **************************************************************************************************** -->
@@ -259,7 +247,7 @@ font-family: 'Timmana', sans-serif;
 		        // Product description... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 		        echo '<div class="row">';
 		        echo '<div class="col-xs-12 col-md-6"><p class="lead">$  ' . (($row['Precio']>0)? $row['Precio']:"Consultar" ). ' </p></div><div class="col-xs-12 col-md-6">';
-		        echo '<a class="btn btn-info" href="#"> Ficha </a></div></div></div></div> </div>';
+		        echo '<a class="btn btn-info" onclick="FA('.$row['idArt'] .')"> Ficha </a></div></div></div></div> </div>';
 
 	        }
 	        mysqli_free_result($segmento);
@@ -292,10 +280,32 @@ font-family: 'Timmana', sans-serif;
         }
     </script>
     <script>
+        function FA(id) {
+
+            var d = {A: id};
+            $.post("hom.php", d, function (result) {
+                console.log (result);
+                var Datos = result.split("|");
+                document.getElementById("DTitulo").innerHTML=Datos[1];
+                document.getElementById("ArtCategoria").innerHTML=Datos[5];
+                document.getElementById("ArtMarca").innerHTML=Datos[2];
+                document.getElementById("ArtPrecio").innerHTML=Datos[3];
+                document.getElementById("artIMA").setAttribute("src","../" + Datos[6]);
+                document.getElementById("ArtData").innerHTML=(Datos[7]);
+
+
+                //64|Pen Drive Sandisk Cruzer Fit 16gb|Pendrive 1|360.00|Otras|Accesorios|
+                // Imagen/1512613082.png|&#60;&#112;&#62;&#60;&#98;&#114;&#62;&#60;&#47;&#112;&#62;
+
+            });
+        }
+     </script>
+    <script>
         function FichaArt() {
             var x= document.querySelectorAll('.X');
             for (let i = 0; i < x.length; ++i) {
                 x[i].addEventListener("click",function () {
+
                     document.getElementById('Articulos').style.display="block";
                     document.getElementById('products').style.display="none";
 
