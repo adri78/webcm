@@ -82,6 +82,11 @@
             .pa6{
                 padding: 6px;
             }
+
+            .thumbnail{
+                height: 415px;
+                overflow: hidden;
+            }
         </style>
     </head>
     
@@ -101,10 +106,11 @@
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav" id="top-navigation">
                             <li class="active"><a href="#home">INICIO</a></li>
-                            <li><a href="#service">Servicios</a></li>
-                            <li><a href="#portfolio">Tienda</a></li>
-                            <li><a href="#about">Reparaciones</a></li>
-                            <li><a href="#contact">Contacto</a></li>
+                            <li><a href="#Servicios">Servicios</a></li>
+                            <li><a href="/Listado/index.php">Tienda</a></li>
+                            <li><a href="#Ofertas">Ofertas</a></li>
+                            <li><a href="#Reparacion">Reparaciones</a></li>
+                            <li><a href="#Contacto">Contacto</a></li>
                         </ul>
 
                     </div>
@@ -160,7 +166,7 @@
         </div>
         <!-- End home section -->
         <!-- Service section start -->
-        <div class="section primary-section" id="service">
+        <div class="section primary-section" id="Servicios">
             <div class="container">
                 <!-- Start title section -->
                 <div class="title">
@@ -202,7 +208,7 @@
         </div>
         <!-- Service section end -->
         <!-- Portfolio section start -->
-        <div class="section secondary-section " id="portfolio">
+        <div class="section secondary-section " id="Ofertas">
             <div class="triangle"></div>
             <div class="container">
                 <div class=" title">
@@ -238,7 +244,11 @@
              echo ' <li class="span4 mix '. $fila['rubro']. '"><div class="thumbnail">';
              echo '<img src="'.substr ($fila['Logo'],6) . '" alt="'. $fila['Articulo']. '">';
              echo ' <a href="#single-project" class="more show_hide" rel="#slidingDiv" onclick="FART('. $fila['idArt']. ')"> <i class="icon-plus"></i></a>';
-             echo '<h3>'. $fila['Articulo']. '</h3> <p> COD: '. $fila['Codigo']. '</p><div class="mask"></div></div></li>';
+            echo '<h3>'. $fila['Articulo']. '</h3> <p> COD: '. $fila['Codigo']. '</p><div class="mask"></div></div></li>';
+         //    echo ' <a href="#single-project" class="more show_hide" rel="#slidingDiv"> <i class="icon-plus"></i></a>';
+         //    echo '<h3>'. $fila['Articulo']. '</h3> <p> COD: '. $fila['Codigo']. '</p><div class="mask"></div></div></li>';
+
+
         }
         mysqli_free_result($resultado);
  ?>
@@ -287,9 +297,7 @@
             <!-- *********************************************************************** -->
 
 
-
-
-            <div class="container"  id="about">
+            <div class="container"  id="Reparacion">
                 <div class="title">
                     <h1>Reparaciones</h1>
                     <p>Técnicos especialistas, repuestos originales, rapidez, calidad y responsabilidad.</p>
@@ -322,7 +330,6 @@
                             <h2><span class="FSUB">Falla:</span> <span id="Falla" class="FEB"></span></h2>
                             <h3><span class="FSUB">Estado:</span><span id="Estado" class="btn btn-success"></span> <span class="FSUB">  Tecnico </span><span id="Tecnico" class="FEB R2"></span></h3>
                             <h4 style="text-align: center;"><span class="FSUB">Debe:</span> <span id="Debe" class="FEB"></span></h4>
-
                         </div>
 
                         <h4 style="text-align: center">Recuerde que por su seguridad ningun equipo se entregara sin su Orden de Servicio Impresa</h4>
@@ -341,7 +348,7 @@
             <div class="triangle"></div>
 
         <!-- Contact section start -->
-        <div id="contact" class="contact">
+        <div id="Contacto" class="contact">
             <div class="section secondary-section">
                 <div class="container">
                     <div class="title">
@@ -417,7 +424,8 @@
         <script type="text/javascript" src="js/app.js"></script>
             <script>
                 function FART(id) {
-                    $("#single-project").load("hom.php?A="+id, function (res){});//
+                    location.href='/Listado/index.php?A='+id;
+                    //$("#single-project").load("hom.php?A="+id, function (res){});//
                 }
 
                 function VerEstaTel(){

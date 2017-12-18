@@ -1,4 +1,6 @@
 <?php
+    session_start();
+
   // error_reporting(0); 
 date_default_timezone_set('America/Argentina/Buenos_Aires');
 $HOY = date("Y-m-d H:i:s");
@@ -907,10 +909,21 @@ if ($modo==16) {// Listado de Clientes
 
 if ($modo==101){// Informe Ventas Totales
     $formatter = new NumberFormatter('en_US', NumberFormatter::CURRENCY);
-    $sql="SELECT `Fecha`, `Cliente`, `DNI`, `Email`, `Total`, `Control`, `Local`, `Num` FROM `t_venta` WHERE ((`Fecha` >= '".$Desde."') AND (`Fecha` <='".$Hasta."'))and (`estado`=1) ORDER BY `Local`,`Fecha`,`Num`;";
+  //  $sql="SELECT `Fecha`, `Cliente`, `DNI`, `Email`, `Total`, `Control`, `Local`, `Num` FROM `t_venta` WHERE ((`Fecha` >= '".$Desde."') AND (`Fecha` <='".$Hasta."'))and (`estado`=1) ORDER BY `Local`,`Fecha`,`Num`;";
+    $sql="SELECT `Fecha`, `Cliente`, `DNI`, `Email`,(SELECT (SELECT `Articulo` FROM `t_art` WHERE `idart`=`ArtID`) as Model FROM `t_detalle` WHERE `Vid`=`IdV`) as Model, `Total`, `Control`, `Local`, `Num` FROM `t_venta` WHERE ((`Fecha` >= '".$Desde."') AND (`Fecha` <='".$Hasta."'))and (`estado`=1) ORDER BY `Local`,`Fecha`,`Num`;";
 
-     echo '<h3>Informe de Ventas</h3>';
-    echo '<table class="table table-striped" id="L101"><thead><tr><th width="130px">Fecha</th><th>Cliente</th><th width="40px">N°</th><th width="40px">Total</th><th class="TC" width="30px">Local</th>';
+   // echo $sql;
+
+   /***************************************************************************************************** */
+    $A="SELECT count( `idart` ) as N, SUM(`Precio`) AS Total, SUM(`Costo`) as Costo, SUM(`Precio`- `Costo`) as Ganacia FROM `t_detalle`,`t_art`  WHERE (`idart`=`ArtID`) AND ";
+    $A=$A."`Vid` IN (SELECT IdV FROM `t_venta`";
+    $A=$A." WHERE (`estado`=1) AND ((`Fecha` >= '".$Desde."') AND (`Fecha` <='".$Hasta."')) AND ";
+    //echo $A;
+  /******************************************************************************************************* */
+
+
+    echo '<h3>Informe de Ventas</h3>';
+    echo '<table class="table table-striped" id="L101"><thead><tr><th width="130px">Fecha</th><th>Cliente</th><th width="40px">Mod</th><th width="40px">N°</th><th width="40px">Total</th><th class="TC" width="30px">Local</th>';
     echo'<th>Control</th></tr></thead><tbody>';
 
     $MaxVen=0;
@@ -931,8 +944,9 @@ if ($modo==101){// Informe Ventas Totales
                 $Local="Deposito";
                 break;
         } //Local
+
         $recibo=str_pad($row["Num"], 6, "0", STR_PAD_LEFT);
-        echo '<tr><td>'.$row["Fecha"].'</td><td>'.$row["Cliente"].'</td><td>'.$recibo.'</td>';
+        echo '<tr><td>'.$row["Fecha"].'</td><td>'.$row["Cliente"].'</td><td>'.$row["Model"].'</td><td>'.$recibo.'</td>';
         echo '<td>'.$formatter->formatCurrency( $row["Total"], 'USD').'</td>';
         echo '<td>'.$Local.'</td><td>'.$row["Control"].'</td>';
         echo '</tr>';
@@ -961,36 +975,40 @@ if ($modo==101){// Informe Ventas Totales
         echo '<hr>';
 
  /* ************************ Resumen de ganacias ***************************************** */
-  $A="SELECT count( `idart` ) as N, SUM(`Precio`) AS Total, SUM(`Costo`) as Costo, SUM(`Precio`- `Costo`) as Ganacia FROM `t_detalle`,`t_art`  WHERE (`idart`=`ArtID`) AND ";
-       $A=$A."`Vid` IN (SELECT IdV FROM `t_venta`";
-       $A=$A." WHERE ((`Fecha` >= '".$Desde."') AND (`Fecha` <='".$Hasta."')) and";
-        $sql=$A." `Local`=1) and ('estado'=1);";
 
-        echo '<h4 style="padding: 1em 10em 5em;">';
-        echo '<table class="table table-striped table-bordered table-hover"  ><thead><tr><th class="TC"><h3>Local</h3></th><th>N°</th><th>V</th></th><th>C</th><th>G</th></tr></thead><tbody>';
+        $sql2=$A." `Local`=1) ;";
 
-        $segmento = mysqli_query($conexion,$sql);
-        while ($row = mysqli_fetch_array($segmento)) {
-            echo '<tr><td class="TD" >ADROGUE </td><td class="TC" >' . $row["N"] . '</td><td class="TD" >' . $formatter->formatCurrency($row["Total"], 'USD') . '</td>';
-            echo '<td class="TD" >' . $formatter->formatCurrency($row["Costo"], 'USD') . '</td>';
-            echo '<td class="TD" >' . $formatter->formatCurrency($row["Ganacia"], 'USD') . '</td></tr>';
-        }
-        $sql=$A." `Local`=2) and ('estado'=1);";
-        $segmento = mysqli_query($conexion,$sql);
-        while ($row = mysqli_fetch_array($segmento)) {
-            echo '<tr><td class="TD" >Burzaco </td><td class="TC" >' . $row["N"] . '</td><td class="TD" >' . $formatter->formatCurrency($row["Total"], 'USD') . '</td>';
-            echo '<td class="TD" >' . $formatter->formatCurrency($row["Costo"], 'USD') . '</td>';
-            echo '<td class="TD" >' . $formatter->formatCurrency($row["Ganacia"], 'USD') . '</td></tr>';
-        }
-        $sql=$A." `Local`=3) and ('estado'=1);";
-        $segmento = mysqli_query($conexion,$sql);
-        while ($row = mysqli_fetch_array($segmento)) {
-            echo '<tr><td class="TD" >DEPOSITO </td><td class="TC" >' . $row["N"] . '</td><td class="TD" >' . $formatter->formatCurrency($row["Total"], 'USD') . '</td>';
-            echo '<td class="TD" >' . $formatter->formatCurrency($row["Costo"], 'USD') . '</td>';
-            echo '<td class="TD" >' . $formatter->formatCurrency($row["Ganacia"], 'USD') . '</td></tr>';
-        }
+        if( $_SESSION['Local1'] ==4) { // solo admin
 
-        echo ' </tbody></table><hr></h4>';
+            echo '<h4 style="padding: 1em 10em 5em;">';
+
+            echo '<table class="table table-striped table-bordered table-hover"  ><thead><tr><th class="TC"><h3>Local</h3></th><th>N°</th><th>V</th></th><th>C</th><th>G</th></tr></thead><tbody>';
+
+            $segmento = mysqli_query($conexion, $sql2);
+            while ($row = mysqli_fetch_array($segmento)) {
+                echo '<tr><td class="TD" >ADROGUE </td><td class="TC" >' . $row["N"] . '</td><td class="TD" >' . $formatter->formatCurrency($row["Total"], 'USD') . '</td>';
+                echo '<td class="TD" >' . $formatter->formatCurrency($row["Costo"], 'USD') . '</td>';
+                echo '<td class="TD" >' . $formatter->formatCurrency($row["Ganacia"], 'USD') . '</td></tr>';
+            }
+            $sql2 = $A . " `Local`=2);";
+            $segmento = mysqli_query($conexion, $sql2);
+            while ($row = mysqli_fetch_array($segmento)) {
+                echo '<tr><td class="TD" >Burzaco </td><td class="TC" >' . $row["N"] . '</td><td class="TD" >' . $formatter->formatCurrency($row["Total"], 'USD') . '</td>';
+                echo '<td class="TD" >' . $formatter->formatCurrency($row["Costo"], 'USD') . '</td>';
+                echo '<td class="TD" >' . $formatter->formatCurrency($row["Ganacia"], 'USD') . '</td></tr>';
+            }
+            $sql2 = $A . " `Local`=3);";
+            $segmento = mysqli_query($conexion, $sql2);
+            while ($row = mysqli_fetch_array($segmento)) {
+                echo '<tr><td class="TD" >DEPOSITO </td><td class="TC" >' . $row["N"] . '</td><td class="TD" >' . $formatter->formatCurrency($row["Total"], 'USD') . '</td>';
+                echo '<td class="TD" >' . $formatter->formatCurrency($row["Costo"], 'USD') . '</td>';
+                echo '<td class="TD" >' . $formatter->formatCurrency($row["Ganacia"], 'USD') . '</td></tr>';
+            }
+
+            echo ' </tbody></table><hr></h4>';
+        }
+       // echo  $sql2;
+
         /*    */
 
  /* *********************** Fin de Ganacias - ********************************************************* */

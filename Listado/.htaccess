@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^productos/([a-zA-Z]+)/([a-zA-Z]+)$ index.php?productos=$1
